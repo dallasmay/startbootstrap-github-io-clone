@@ -5,16 +5,25 @@
 }
 
 :root {
-    --yellow: #ffc800
+    --yellow: #ffc800;
+    --text-black: #212529
 }
 
 html {
     font-family: 'Montserrat', sans-serif;
     font-size: 62.5%;
+    color: var(--text-black);
 }
 
 a {
     text-decoration: none;
+}
+h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 2.4rem;
 }
 /* -----NAV----- */
 nav {
@@ -88,4 +97,46 @@ li a:hover {
     text-transform: uppercase;
     color: #FFFFFF;
     border-radius: 5px;
+}
+/* -----Services Page----- */
+.services {
+    display: flex;
+    justify-content: center;
+}
+.services-container {
+    text-align: center;
+    margin: 10rem 0rem;
+}
+.heading-container {
+    margin: 0rem 0rem 5rem 0rem;
+}
+.serv-subhead {
+    font-size: 1.6rem;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    color: #6c757d;
+}
+.serv-card-container {
+    display: flex;
+    justify-content: center;
+}
+.icon-container {
+    position: relative;
+
+}
+.serv-card p {
+    font-size: 1.6rem;
+}
+.svg-circle {
+    position: relative;
+    height: 12rem;
+    fill: var(--yellow);
+}
+.svg-shop-cart {
+    position: relative;
+    height: 6rem;
+    right: 9.9rem;
+    bottom: 2.5rem;
+    color: #FFFFFF;
+
 }
